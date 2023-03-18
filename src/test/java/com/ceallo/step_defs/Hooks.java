@@ -13,7 +13,7 @@ public class Hooks {
 
     Login_Page login = new Login_Page();
 
-    @Before
+   @Before
     public void setupScenarioForLogins() {
 
         Driver.getDriver().get(ConfigurationReader.getProperty("web.url"));
@@ -22,7 +22,7 @@ public class Hooks {
         login.button.click();
     }
 
-    @After
+  @After
     public void teardownScenario(Scenario scenario){
 
         //scenario.isFailed() --> if scenario fails this method will return TRUE boolean value

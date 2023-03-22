@@ -1,6 +1,9 @@
 package com.ceallo.pages;
 
+import com.ceallo.utilities.ConfigurationReader;
 import com.ceallo.utilities.Driver;
+import io.cucumber.java.en.Given;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -21,3 +24,13 @@ public class Login_Page {
     public WebElement button;
 
 }
+   // Login_Page login = new Login_Page();
+
+  /*  @Given("User is on the dashboard")
+    public void user_is_on_the_dashboard() {
+        Driver.getDriver().get(ConfigurationReader.getProperty("web.url"));
+        login.userName.sendKeys(ConfigurationReader.getProperty("web.username"));
+        login.password.sendKeys(ConfigurationReader.getProperty("web.password"));
+        login.button.click();
+        Assert.assertEquals("Files - Ceallo - QA", Driver.getDriver().getTitle());
+    }*/

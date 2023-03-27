@@ -1,9 +1,5 @@
 package com.ceallo.pages;
-
-import com.ceallo.utilities.ConfigurationReader;
 import com.ceallo.utilities.Driver;
-import io.cucumber.java.en.Given;
-import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

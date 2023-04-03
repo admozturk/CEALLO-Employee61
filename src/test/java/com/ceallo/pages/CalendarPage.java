@@ -47,7 +47,7 @@ public class CalendarPage {
     @FindBy(xpath = "(//div[@class='fc-event-title-container'])[1]/..")
     public WebElement eventSchoolMeeting;
 
-    // the event deletion
+    // The event deletion
 
     @FindBy(xpath = "//button[normalize-space()='More']")
     public WebElement moreButton;

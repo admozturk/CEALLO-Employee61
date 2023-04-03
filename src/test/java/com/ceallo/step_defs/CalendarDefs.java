@@ -84,6 +84,7 @@ public class CalendarDefs {
     }
 
     @When("the user fills inside event title box")
+
     public void the_user_fills_inside_event_title_box() {
         calendar.eventTitle.sendKeys("School Meeting");
 

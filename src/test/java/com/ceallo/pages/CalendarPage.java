@@ -26,7 +26,7 @@ public class CalendarPage {
     @FindBy(css = "span[class='action-button__icon icon-view-module']")
     public WebElement monthlyView;
 
-    @FindBy(css = "a[data-navlink='{\"date\":\"2023-03-24\",\"type\":\"day\"}']")
+    @FindBy(xpath = "//td[@class='fc-daygrid-day fc-day fc-day-mon fc-day-today ']//a[@class='fc-daygrid-day-number'][normalize-space()='3']")
     public WebElement getMonthlyView;
 
 

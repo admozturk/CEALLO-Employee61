@@ -32,6 +32,7 @@ public class CalendarPage {
 
     // New Event Scenario
     @FindBy(css = "button[class='button primary new-event']")
+
     public WebElement newEventButton;
 
     @FindBy(xpath = "//input[@placeholder='Event title']")

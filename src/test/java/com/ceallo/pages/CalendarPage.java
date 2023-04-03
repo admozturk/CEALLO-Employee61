@@ -58,6 +58,7 @@ public class CalendarPage {
     @FindBy(xpath = "//span[normalize-space()='Delete']")
     public WebElement deleteButton;
 
+
     @FindBy(xpath = "(//a[@class='fc-daygrid-day-number'][normalize-space()='31'])[1]")
     public WebElement afterDeletion;
 
